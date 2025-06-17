@@ -1,14 +1,5 @@
-import 'package:flutter/material.dart';
+sealed class EX {}
 
-class states {
-  final String text;
-  final int count;
-  final Color color;
+class ChangeColor extends EX {}
 
-  states({required this.text, required this.count, required this.color});
-
-  @override
-  String toString() {
-    return 'states(text: $text, count: $count, color: $color)';
-  }
-}
+class ChangeText extends EX {}
