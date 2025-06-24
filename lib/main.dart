@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/splash/view/screen/LoginScreen.dart';
+import 'features/splash/view/screen/SplashScreen.dart';
 
 void main() {
   runApp(
